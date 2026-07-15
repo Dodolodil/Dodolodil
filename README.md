@@ -25,13 +25,15 @@
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </p>
 
 | Category | Tools |
 |---|---|
 | **Data Cleaning & Analysis** | Python (pandas, matplotlib, seaborn), Excel |
-| **Database & Query** | MySQL — window functions, CTEs, joins |
+| **Statistics & Modeling** | scipy (hypothesis testing), scikit-learn (logistic regression) |
+| **Database & Query** | MySQL — schema design, window functions, CTEs, joins |
 | **Visualization & Dashboard** | Tableau (interactive, multi-layer dashboards) |
 | **Version Control** | Git & GitHub |
 
@@ -49,6 +51,17 @@ End-to-end analysis of an online retail transaction dataset — from data cleani
 - 🔗 **[Live Dashboard on Tableau Public](https://public.tableau.com/views/OnlineReatailSalesPerformanceAnalysis/Overview)**
 
 `Python` `MySQL` `Excel` `Tableau` `Data Cleaning` `RFM Segmentation` `Dashboard Design`
+
+#### 👥 [HR Employee Attrition Analysis](https://github.com/Dodolodil/HR-Employee-Attrition-Analysis)
+
+In-depth analysis of the factors associated with employee attrition, combining relational database design, statistical hypothesis testing, and logistic regression.
+
+- **Business Question:** What is the overall attrition rate, and which factors — overtime, compensation, tenure, job satisfaction — are actually associated with it?
+- **Workflow:** Python (cleaning & normalizing a flat dataset into 6 relational tables) → MySQL (schema design, business queries) → Python (Chi-Square, Mann-Whitney U testing, logistic regression)
+- **Key Insight:** A high-risk profile (overtime + low income + low job satisfaction) shows a 65.9% attrition rate — over 4x the company average of 16.12%
+- Rigorous approach: every statistical test is reported with an effect size, not just a p-value, and model features are checked for multicollinearity via VIF
+
+`Python` `MySQL` `Database Design` `Hypothesis Testing` `Logistic Regression` `scikit-learn`
 
 ---
 
@@ -68,4 +81,4 @@ End-to-end analysis of an online retail transaction dataset — from data cleani
 
 ---
 
-<p align="center"><i>More projects coming soon — currently working on HR analytics case studies.</i></p>
+<p align="center"><i>More projects coming soon.</i></p>
