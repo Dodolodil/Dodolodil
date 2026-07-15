@@ -59,7 +59,7 @@ In-depth analysis of the factors associated with employee attrition, combining r
 - **Business Question:** What is the overall attrition rate, and which factors — overtime, compensation, tenure, job satisfaction — are actually associated with it?
 - **Workflow:** Python (cleaning & normalizing a flat dataset into 6 relational tables) → MySQL (schema design, business queries) → Python (Chi-Square, Mann-Whitney U testing, logistic regression)
 - **Key Insight:** A high-risk profile (overtime + low income + low job satisfaction) shows a 65.9% attrition rate — over 4x the company average of 16.12%
-- Rigorous approach: every statistical test is reported with an effect size, not just a p-value, and model features are checked for multicollinearity via VIF
+- **Rigorous approach:** every statistical test is reported with an effect size, not just a p-value, and model features are checked for multicollinearity via VIF
 
 `Python` `MySQL` `Database Design` `Hypothesis Testing` `Logistic Regression` `scikit-learn`
 
