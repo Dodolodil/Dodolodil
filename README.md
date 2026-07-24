@@ -81,4 +81,4 @@ In-depth analysis of the factors associated with employee attrition, combining r
 
 ---
 
-<p align="center"><i>More projects coming soon.</i></p>
+<p align="center"><i>More projects coming soon — currently working on Bank Marketing Analysis.</i></p>
